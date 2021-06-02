@@ -11,11 +11,11 @@
 
 .main {
   height: 100%;
-  padding-top: 102px;
 
   &__section {
-    margin: 0 auto 152px;
+    margin: 0 auto;
     max-width: 1366px;
+    padding-top: 102px;
 
     @media (min-width: 280px) {
       width: calc(100% - 40px);
